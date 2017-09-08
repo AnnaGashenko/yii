@@ -25,6 +25,11 @@ class AppAsset extends AssetBundle
     public $js = [
         //'js/scripts.js'
     ];
+
+    // указываюися зависимости
+    // если наши скрипты зависят от других скриптов (jquery)
+    // в св-ве depends можем указать от чего зависит наш срипт
+    // это значит, что наш скрипт будет подключен после скрипта от которого он зависит
     public $depends = [
         'yii\web\YiiAsset',
         // подключаем bootstrap.css и bootstrap.js

@@ -2,7 +2,7 @@
 // указываем путь к нашему классу UserController
 namespace app\controllers\admin;
 
-use yii\web\Controller;
+use z;
 
 // Создаем в папке "controllers" папку "admin" в ней controller UserController.php
 class UserController extends Controller {

@@ -14,7 +14,7 @@ use app\models\TestForm;
 // Передаем наследование AppController в класс PostController
 class PostController extends AppController {
 
-    // Для всех страниц контроллера PostController будет использоваться шаблон basic.phps
+    // Для всех страниц контроллера PostController будет использоваться шаблон basic.php
     public $layout = 'basic';
 
     /** Yii2 – позволяет также отключить проверку токена */
